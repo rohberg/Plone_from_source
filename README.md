@@ -53,6 +53,14 @@ runwsgi instance/etc/zope.ini
 See my documentation of common tasks on the official Plone documentation:
 https://6.dev-docs.plone.org/install/source.html#tasks-on-your-backend-installation-from-its-packages
 
+- Add an add-on
+- Pin the version of an add-on
+- Checkout an add-on
+- Pin the version of a Plone package / constraints
+- Checkout a Plone package
+- Build and start your instance
+
+
 ## Troubleshooting
 
 ### "The 'Paste' distribution was not found and is required by the application"
