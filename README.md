@@ -1,10 +1,10 @@
 # Backend Plone 6
 
-Installation with pip and mxdev
+Installation from packages with pip and mxdev
 
 Create a folder `backend` with a virtual Python environment.
 Clone this repo.
-Install prerequisites and run mxdev.
+Install prerequisites and run mxdev:
 
 ```shell
 python -m venv venv
@@ -48,6 +48,10 @@ cookiecutter -f --no-input --config-file instance.yaml https://github.com/plone/
 runwsgi instance/etc/zope.ini
 ```
 
+## Tasks on your backend installation from its packages
+
+See my documentation of common tasks on the official Plone documentation:
+https://6.dev-docs.plone.org/install/source.html#tasks-on-your-backend-installation-from-its-packages
 
 ## Troubleshooting
 
@@ -67,4 +71,8 @@ Correct in `setup.py` of the mentioned add-on:
 ```
 python_requires=">=3.6",
 ```
+
+## Questions?
+
+File an issue here or ping me on Discord: @ksuess
 
