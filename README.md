@@ -62,4 +62,9 @@ runwsgi instance/etc/zope.ini
 
 ### Package 'example-contenttype' requires a different Python: 3.9.10 not in '==2.7,>=3.6'
 
-TODO
+Correct in `setup.py` of the mentioned add-on:
+
+```
+python_requires=">=3.6",
+```
+
