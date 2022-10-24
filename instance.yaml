@@ -5,6 +5,7 @@ default_context:
   # wsgi_listen: localhost:8082
 
   load_zcml:
-    package_includes: ["collective.easyform", "example.contenttype"]
+    package_includes:
+      ["collective.easyform", "example.contenttype", "collective.elastic.plone"]
 
   db_storage: direct

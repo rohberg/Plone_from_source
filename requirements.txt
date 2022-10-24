@@ -7,5 +7,9 @@ zope.testrunner
 
 
 # List of add-ons that are needed.
+plone.app.robotframework
 collective.easyform
 example.contenttype
+redis
+collective.elastic.plone
+elasticsearch~=8.0
